@@ -1,0 +1,356 @@
+@import url("sp://import/css/core-dark.css");
+
+			
+
+			header {
+					padding:5px;
+					text-align: center;
+					background-color:#ffa2b2ee;
+					font-size: 30px; 
+			}
+		
+			body {
+					background-color: #f352c3;
+				}
+		
+			h1 {
+					color: white;
+					font-family: 'Font2';
+					font-size: 12px;
+				}
+			h2 {
+					color: Black;
+					font-family: Rockwell;
+					font-size: 20px;
+				}
+			h3 {
+					color: Black;
+					font-family: Rockwell;
+					font-size: 25px;
+				}
+			input {
+					background-color: White;
+					border-color: white;
+					color: black;
+					font-family: Rockwell;
+					font-size: 20px;
+				}
+
+				@font-face {
+					font-family: 'Font1';
+  					src: url(Spotify/font1.otf);
+  					font-weight: bold;
+					
+				  }
+				
+				  @font-face {
+					font-family: 'Font2';
+  					src: url(Spotify/font2.otf);
+
+  				
+				  }
+
+				  
+				  @font-face {
+					font-family: 'Font3';
+  					src: url(Spotify/font3.ttf);
+
+
+				  }
+
+				.sidenav {
+					height: 100%;
+					width: 240px;
+					position: fixed;
+					z-index: 1;
+					top: 0;
+					left: 0;
+					background-color: rgb(138, 0, 83);
+					overflow-x: hidden;
+				  }
+				  
+				 
+				  .sidenav a {
+					color: white;
+					padding: 16px;
+					text-decoration: none;
+					font-size: 20px;
+					font-family: 'Font3';
+					display: block;	
+					width: auto;
+					
+				  }
+				  
+				  
+				  .sidenav a:hover {
+					background-color: #ddd;
+					color: black;
+					transition: 0.7s
+				  }
+
+				  
+					  
+
+				  i {
+					width: 50px;
+					height: 10px;
+					position: relative;
+					top: -1.8px;
+					margin-right: 10px;
+					fill: #fff;
+					
+				  }
+
+				  .heading {
+					font-family: 'Font2';
+				  }
+
+				  .heading a{
+					font-family: 'Font2';
+				  }
+
+				  .heading a:hover {
+					color: black;
+					font-family: 'Font2';
+					transition: 0.7s;
+				  }
+
+				  .head {
+					background-image: url(4k2.jpg);
+					object-fit: cover;
+ 					height: 380px;
+ 					background-size: cover;
+  					background-repeat: no-repeat;
+  					background-position: 100% 50%;
+					width: 1340px;
+				  }
+				  
+				 .album {
+					background-image: url(cover.jpg); width: 200px; height: 200px;
+					margin-left: 100px;
+					position: absolute;
+					left: 190px;
+					top: 30px;
+					background-position: 20% 80%;
+				 }
+				
+				 .text {
+					position: absolute;
+					font-family: Font2;
+					margin-left: 100px;
+					left: 400px;
+					top: 90px;
+					color: white;
+					font-size: 15px;
+				 }
+
+				 .text1 {
+					position: absolute;
+					font-family: Font1;
+					margin-left: 100px;
+					left: 400px;
+					top: 120px;
+					color: white;
+					font-size: 70px;
+				 }
+
+				 .text2 {
+					position: absolute;
+					font-family: Font1;
+					margin-left: 100px;
+					left: 400px;
+					top: 215px;
+					color: white;
+					font-size: 15px;
+				 }
+				
+				 .seperator {
+					background-image:linear-gradient(to bottom, rgba(235, 0, 0, 0), rgb(236, 0, 146));
+					position: absolute;
+					top: 260px;
+					font-family: Font1;
+					margin-left: 2px;
+					text-align: center;
+					width: auto;
+					height: 300px;
+				  }
+
+				  .icon2 {
+					width: 50px;
+					height: 10px;
+					position: absolute;
+					left: 265px;
+					top: 33px;
+					margin-right: 10px;
+					font-size: 50px;
+					text-align: center;
+				  }
+
+				  .icon2 a:hover {
+					color: white;
+				  }
+
+				  .circle {
+					background: rgb(230, 86, 210);
+					border-radius: 50%;
+					width: 80px;
+					height: 80px;
+					position: absolute;
+					left: 245px;
+					top: 15px;
+				}
+
+				.circle a{
+					color: rgb(148, 74, 123) ; 
+				  }
+
+				  
+				  .icon3 {
+					width: 50px;
+					height: 10px;
+					position: absolute;
+					left: 360px;
+					top: 44px;
+					margin-right: 10px;
+					font-size: 30px;
+					text-align: center;
+				  }
+
+				  .icon4 {
+					width: 50px;
+					height: 10px;
+					position: absolute;
+					left: 450px;
+					top: 43px;
+					margin-right: 10px;
+					font-size: 30px;
+					text-align: center;
+				  }
+
+				  .songlist tr, td {
+					font-weight: bold;
+					font-family: 'Font2';
+					color: white;
+					text-align: left;
+					width: 40px;
+					height: auto;
+					margin-left: -20px;
+					padding-right: 105px;
+					padding: 20px;
+
+				  }
+
+				  .songlist img {
+					width: 40px;
+					height: 40px;
+					margin-left: 20px;
+					padding-right: 1px;
+				  }
+				  
+				  .image {
+					padding: 0px;
+					
+				  }
+
+				  table {
+					width: 1108px;
+					padding-top: 120px;
+					padding-left: 160px;
+					padding-right: 160px;
+					margin-left: 230px;
+					margin-top: 120px;
+					border-collapse: collapse;
+					background-color: rgb(241, 29, 178);
+					border-radius: 35px;
+ 
+				  }
+
+				  tr {
+					background: #d10e80;
+					padding: 50px;
+					width: 200px;
+					height: 550px;
+					border-color: white;
+					border-style: solid;
+					border: 1px solid white;
+					
+					
+				  }
+
+				  tr td h1 {
+					color: white;
+				  }
+
+				  td:first-child,
+				  th:first-child {
+ 		
+					border: 1px solid white;
+				  }
+
+				  tr:hover {
+					background-color: rgb(138, 0, 83);
+					transition: 0.4s;
+					
+				  }
+
+				  .playbar {
+					background-color: rgb(138, 0, 83);
+					overflow: hidden;
+					position: fixed;
+					bottom: 0;
+					width: 100%;
+					height: 104px;
+					
+				  }
+
+				 
+				  .circle2 {
+					background: rgb(230, 86, 210);
+					border-radius: 50%;
+					width: 45px;
+					height: 45px;
+					position: absolute;
+					left: 630px;
+					top: 10px;
+				}
+				 
+				.icon5 {
+					width: 50px;
+					height: 10px;
+					position: absolute;
+					left: 13px;
+					top: 10px;
+					margin-right: 10px;
+					font-size: 30px;
+				  }
+
+				.fa-solid.fa-forward-fast {
+					color:black;
+					font-size: 40px;					
+					position: absolute;
+					left: 700px;
+					top: 11px;
+				}
+
+				.fa-solid.fa-backward-fast { 
+					color:black;
+					font-size: 40px;					
+					position: absolute;
+					left: 562px;
+					top: 11px;
+				}
+				
+				button {
+					font-family: 'Font3';
+					font-size: 1.5rem;
+					color: #fff;
+					background: rgb(138, 0, 83);
+					padding: 1.1rem 3.4rem;
+					border-radius: .2rem;
+					transition: opacity .4s;
+					}
+					
+					button:hover {
+					cursor: pointer;
+					background: rgb(241, 29, 178);
+					}
